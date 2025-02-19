@@ -3,3 +3,7 @@ baseURL = "https://example.com/"
 [module]
 [module.hugoVersion]
 min = "0.124.0"
+
+[params]
+  defaultTheme = "dark"
+  forceTheme = true  # Some themes respect this parameter
